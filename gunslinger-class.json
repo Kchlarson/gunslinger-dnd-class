@@ -1,137 +1,151 @@
 {
-  "name": "Gunslinger",
-  "hit_points": {
-    "hit_dice": "1d10 per Gunslinger level",
-    "hit_points_1st_level": "10 + Constitution modifier",
-    "hit_points_higher_levels": "1d10 (or 6) + Constitution modifier per Gunslinger level after 1st"
-  },
-  "proficiencies": {
-    "armor": ["Light armor", "Medium armor"],
-    "weapons": ["Firearms", "Simple weapons", "Martial weapons"],
-    "tools": ["Tinker's tools"],
-    "saving_throws": ["Dexterity", "Wisdom"],
-    "skills": [
-      "Acrobatics",
-      "Athletics",
-      "Insight",
-      "Intimidation",
-      "Investigation",
-      "Perception",
-      "Stealth",
-      "Survival"
+    "name": "Gunslinger",
+    "hit_points": {
+        "hit_dice": "1d10 per Gunslinger level",
+        "hit_points_1st_level": "10 + Constitution modifier",
+        "hit_points_higher_levels": "1d10 (or 6) + Constitution modifier per Gunslinger level after 1st"
+    },
+    "proficiencies": {
+        "armor": [
+            "Light armor",
+            "Medium armor"
+        ],
+        "weapons": [
+            "Firearms",
+            "Simple weapons",
+            "Martial weapons"
+        ],
+        "tools": [
+            "Tinker's tools"
+        ],
+        "saving_throws": [
+            "Dexterity",
+            "Wisdom"
+        ],
+        "skills": [
+            "Acrobatics",
+            "Athletics",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Perception",
+            "Stealth",
+            "Survival"
+        ],
+        "languages": [
+            "High speech"
+        ]
+    },
+    "equipment": [
+        "Two pistols (1d8 per gun)",
+        "A dagger",
+        "A Gunslinger's kit (includes firearm maintenance tools, 20 rounds of ammunition)",
+        "Leather armor"
     ],
-    "languages": ["High speech"]
-  },
-  "equipment": [
-    "Two pistols (1d8 per gun)",
-    "A dagger",
-    "A Gunslinger's kit (includes firearm maintenance tools, 20 rounds of ammunition)",
-    "Leather armor"
-  ],
-  "class_abilities": {
-    "1": {
-      "name": "Gunslinger's Focus",
-      "description": "You gain a pool of Focus Points equal to your Wisdom modifier (minimum 1). You can spend Focus Points to:\n- Deadeye Shot (1 point): Gain advantage on an attack roll with a firearm.\n- Quick Draw: Add Focus points (up to 3) to your initiative roll.\nFocus Points replenish after a short or long rest."
+    "class_abilities": {
+        "1": {
+            "name": "Gunslinger's Focus",
+            "description": "You gain a pool of Focus Points equal to your Wisdom modifier (minimum 1). You can spend Focus Points to:\n- Deadeye Shot (1 point): Gain advantage on an attack roll with a firearm.\n- Quick Draw: Add Focus points (up to 3) to your initiative roll.\nFocus Points replenish after a short or long rest."
+        },
+        "2": {
+            "name": "Gunplay",
+            "description": "You can attack twice whenever you take the Attack action with a firearm."
+        },
+        "3": {
+            "name": "Gunslinger Creed",
+            "description": "Choose a creed that defines your Gunslinger: The Protector, The Avenger, The Wanderer. Each creed grants features at 3rd, 7th, 10th, and 15th levels."
+        },
+        "4": {
+            "name": "Ability Score Improvement",
+            "description": "As per standard rules."
+        },
+        "5": {
+            "name": "Fan the Hammer",
+            "description": "As an action, spend 2 Focus Points to make an attack against every creature in a 15-foot cone. Targets must make a Dexterity saving throw (DC = 8 + proficiency bonus + Dexterity modifier) or take 1d6 piercing damage per your Gunslinger level."
+        },
+        "6": {
+            "name": "Gunslinger's Reflexes",
+            "description": "Add proficiency bonus to AC against one ranged attack per round."
+        },
+        "9": {
+            "name": "Ka-Tet Bond",
+            "description": "As a bonus action, give an ally within 30 feet advantage on their next attack roll, ability check, or saving throw."
+        },
+        "10": {
+            "name": "Guns of your Father",
+            "description": "Your guns now deal 1d10 damage."
+        },
+        "11": {
+            "name": "Endless Focus",
+            "description": "Once per day, when you roll initiative, regain all your Focus Points."
+        },
+        "14": {
+            "name": "Ricochet Shot",
+            "description": "Make an attack roll against a creature behind cover, ignoring cover penalty."
+        },
+        "18": {
+            "name": "The Gunslinger's Code",
+            "description": "As a bonus action, mark a target within 60 feet for 1 minute. You gain advantage on attacks against the target, and the target has disadvantage on saving throws against your abilities."
+        },
+        "20": {
+            "name": "The White Tower",
+            "description": "Once per long rest, for 1 minute:\n- All Focus Point abilities cost 0 points.\n- Movement speed doubles.\n- Firearm attacks crit on rolls of 18-20."
+        }
     },
-    "2": {
-      "name": "Gunplay",
-      "description": "You can attack twice whenever you take the Attack action with a firearm."
-    },
-    "3": {
-      "name": "Gunslinger Creed",
-      "description": "Choose a creed that defines your Gunslinger: The Protector, The Avenger, The Wanderer. Each creed grants features at 3rd, 7th, 10th, and 15th levels."
-    },
-    "4": {
-      "name": "Ability Score Improvement",
-      "description": "As per standard rules."
-    },
-    "5": {
-      "name": "Fan the Hammer",
-      "description": "As an action, spend 2 Focus Points to make an attack against every creature in a 15-foot cone. Targets must make a Dexterity saving throw (DC = 8 + proficiency bonus + Dexterity modifier) or take 1d6 piercing damage per your Gunslinger level."
-    },
-    "6": {
-      "name": "Gunslinger's Reflexes",
-      "description": "Add proficiency bonus to AC against one ranged attack per round."
-    },
-    "9": {
-      "name": "Ka-Tet Bond",
-      "description": "As a bonus action, give an ally within 30 feet advantage on their next attack roll, ability check, or saving throw."
-    },
-    "10": {
-      "name": "Guns of your Father",
-      "description": "Your guns now deal 1d10 damage."
-    },
-    "11": {
-      "name": "Endless Focus",
-      "description": "Once per day, when you roll initiative, regain all your Focus Points."
-    },
-    "14": {
-      "name": "Ricochet Shot",
-      "description": "Make an attack roll against a creature behind cover, ignoring cover penalty."
-    },
-    "18": {
-      "name": "The Gunslinger's Code",
-      "description": "As a bonus action, mark a target within 60 feet for 1 minute. You gain advantage on attacks against the target, and the target has disadvantage on saving throws against your abilities."
-    },
-    "20": {
-      "name": "The White Tower",
-      "description": "Once per long rest, for 1 minute:\n- All Focus Point abilities cost 0 points.\n- Movement speed doubles.\n- Firearm attacks crit on rolls of 18-20."
+    "creeds": {
+        "Protector": {
+            "3": {
+                "name": "Shield Ally",
+                "description": "Use your reaction to impose disadvantage on an attack against an ally within 5 feet."
+            },
+            "7": {
+                "name": "Hold the Line",
+                "description": "Allies within 10 feet gain +2 AC."
+            },
+            "10": {
+                "name": "Inspiring Presence",
+                "description": "Allies within 30 feet add your Wisdom modifier to saving throws."
+            },
+            "15": {
+                "name": "Unyielding Guardian",
+                "description": "Use your reaction to restore an ally reduced to 0 HP within 30 feet to 1 HP."
+            }
+        },
+        "Avenger": {
+            "3": {
+                "name": "Vengeance Strike",
+                "description": "Add 1d6 damage when hitting a creature that damaged you."
+            },
+            "7": {
+                "name": "Bloody Retribution",
+                "description": "Once per turn, deal an extra 2d6 damage to a creature below max HP."
+            },
+            "10": {
+                "name": "Deadly Aim",
+                "description": "Firearms ignore resistance to nonmagical attacks."
+            },
+            "15": {
+                "name": "Executioner's Shot",
+                "description": "Once per long rest, deal 10d10 damage on a critical hit."
+            }
+        },
+        "Wanderer": {
+            "3": {
+                "name": "Gunslinger's Mysticism",
+                "description": "Learn two cantrips from the Druid or Wizard spell list."
+            },
+            "7": {
+                "name": "Mystic Shots",
+                "description": "Spend Focus Points to imbue bullets with elemental energy (fire, ice, or lightning)."
+            },
+            "10": {
+                "name": "Sixth Sense",
+                "description": "Cast detect magic or see invisibility once per short rest."
+            },
+            "15": {
+                "name": "Portal Walker",
+                "description": "Cast dimension door once per long rest."
+            }
+        }
     }
-  },
-  "creeds": {
-    "Protector": {
-      "3": {
-        "name": "Shield Ally",
-        "description": "Use your reaction to impose disadvantage on an attack against an ally within 5 feet."
-      },
-      "7": {
-        "name": "Hold the Line",
-        "description": "Allies within 10 feet gain +2 AC."
-      },
-      "10": {
-        "name": "Inspiring Presence",
-        "description": "Allies within 30 feet add your Wisdom modifier to saving throws."
-      },
-      "15": {
-        "name": "Unyielding Guardian",
-        "description": "Use your reaction to restore an ally reduced to 0 HP within 30 feet to 1 HP."
-      }
-    },
-    "Avenger": {
-      "3": {
-        "name": "Vengeance Strike",
-        "description": "Add 1d6 damage when hitting a creature that damaged you."
-      },
-      "7": {
-        "name": "Bloody Retribution",
-        "description": "Once per turn, deal an extra 2d6 damage to a creature below max HP."
-      },
-      "10": {
-        "name": "Deadly Aim",
-        "description": "Firearms ignore resistance to nonmagical attacks."
-      },
-      "15": {
-        "name": "Executioner's Shot",
-        "description": "Once per long rest, deal 10d10 damage on a critical hit."
-      }
-    },
-    "Wanderer": {
-      "3": {
-        "name": "Gunslinger's Mysticism",
-        "description": "Learn two cantrips from the Druid or Wizard spell list."
-      },
-      "7": {
-        "name": "Mystic Shots",
-        "description": "Spend Focus Points to imbue bullets with elemental energy (fire, ice, or lightning)."
-      },
-      "10": {
-        "name": "Sixth Sense",
-        "description": "Cast detect magic or see invisibility once per short rest."
-      },
-      "15": {
-        "name": "Portal Walker",
-        "description": "Cast dimension door once per long rest."
-      }
-    }
-  }
 }
