@@ -1,0 +1,125 @@
+{
+  "name": "Gunslinger",
+  "type": "class",
+  "data": {
+    "description": {
+      "value": "<p>The Gunslinger is a master of firearms and quick reflexes, wielding pistols with deadly precision.</p>"
+    },
+    "hitDice": "1d10",
+    "hp": {
+      "hitDice": "1d10",
+      "firstLevel": 10,
+      "higherLevel": 6
+    },
+    "proficiencies": {
+      "armor": ["light", "medium"],
+      "weapons": ["firearms", "simple", "martial"],
+      "tools": ["tinkersTools"],
+      "savingThrows": ["dex", "wis"],
+      "skills": {
+        "choose": 3,
+        "from": [
+          "acrobatics",
+          "athletics",
+          "insight",
+          "intimidation",
+          "investigation",
+          "perception",
+          "stealth",
+          "survival"
+        ]
+      }
+    },
+    "languages": ["High Speech"],
+    "levels": [
+      {
+        "level": 1,
+        "name": "Gunslinger’s Focus",
+        "description": "<p>You gain Focus Points equal to your Wisdom modifier (minimum 1). You can spend Focus Points to gain advantage on firearm attacks or add up to 3 points to your initiative roll. Focus Points replenish on short or long rests.</p>"
+      },
+      {
+        "level": 2,
+        "name": "Gunplay",
+        "description": "<p>You can attack twice whenever you take the Attack action with a firearm.</p>"
+      },
+      {
+        "level": 3,
+        "name": "Gunslinger Creed",
+        "description": "<p>Choose a creed that defines your Gunslinger: The Protector, The Avenger, or The Wanderer.</p>"
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "description": "<p>As per standard rules.</p>"
+      },
+      {
+        "level": 5,
+        "name": "Fan the Hammer",
+        "description": "<p>Spend 2 Focus Points to make an attack against every creature in a 15-foot cone. Each target must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or take 1d6 piercing damage per Gunslinger level.</p>"
+      },
+      {
+        "level": 6,
+        "name": "Gunslinger’s Reflexes",
+        "description": "<p>Add your proficiency bonus to your AC against one ranged attack per round.</p>"
+      },
+      {
+        "level": 9,
+        "name": "Ka-Tet Bond",
+        "description": "<p>As a bonus action, give an ally within 30 feet advantage on their next attack roll, ability check, or saving throw.</p>"
+      },
+      {
+        "level": 10,
+        "name": "Guns of Your Father",
+        "description": "<p>Your firearms now deal 1d10 damage.</p>"
+      },
+      {
+        "level": 11,
+        "name": "Endless Focus",
+        "description": "<p>Once per day, when you roll initiative, you regain all your Focus Points.</p>"
+      },
+      {
+        "level": 14,
+        "name": "Ricochet Shot",
+        "description": "<p>You can make an attack roll against a creature behind cover, ignoring the cover penalty.</p>"
+      },
+      {
+        "level": 18,
+        "name": "The Gunslinger’s Code",
+        "description": "<p>As a bonus action, mark a target within 60 feet. For 1 minute, you have advantage on attack rolls against the target, and the target has disadvantage on saving throws against your abilities.</p>"
+      },
+      {
+        "level": 20,
+        "name": "The White Tower",
+        "description": "<p>Once per long rest, for 1 minute: Focus Point abilities cost 0 points, your movement speed doubles, and firearm attacks critically hit on a roll of 18-20.</p>"
+      }
+    ],
+    "subclasses": {
+      "value": [
+        {
+          "name": "The Protector",
+          "levels": [
+            {
+              "level": 3,
+              "name": "Shield Ally",
+              "description": "<p>When an ally within 5 feet is attacked, use your reaction to impose disadvantage on the attack roll.</p>"
+            },
+            {
+              "level": 7,
+              "name": "Hold the Line",
+              "description": "<p>Allies within 10 feet gain +2 AC.</p>"
+            },
+            {
+              "level": 10,
+              "name": "Inspiring Presence",
+              "description": "<p>Allies within 30 feet can add your Wisdom modifier to their saving throws.</p>"
+            },
+            {
+              "level": 15,
+              "name": "Unyielding Guardian",
+              "description": "<p>When an ally is reduced to 0 HP within 30 feet, use your reaction to restore them to 1 HP.</p>"
+            }
+          ]
+        },
+        {
+          "name": "The Avenger",
+          "
